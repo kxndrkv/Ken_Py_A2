@@ -103,6 +103,10 @@ def outputTotalFee():
 
 
 
+
+
+
+
 # Main application setup
 root = tk.Tk()
 root.title("Student Registration")

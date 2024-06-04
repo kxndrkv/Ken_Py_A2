@@ -54,7 +54,7 @@ class Test_Input(unittest.TestCase):
 
   def test_output_string(self):
       outputTotalFeeString()
-      self.assertEqual(total_fee_string, 100)
+      self.assertEqual(str(total_fee_string), int(100))
 
 
 if __name__ == "__main__":
